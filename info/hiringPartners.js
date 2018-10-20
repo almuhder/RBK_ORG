@@ -12,10 +12,6 @@ var hiringPartners = [
     "url": "https://www.samsung.com/levant/"
   },
   {
-    "image": "img/client/zain.png",
-    "url": "https://www.zain.com/en/"
-  },
-  {
     "image": "img/client/souq.png",
     "url": "https://uae.souq.com/ae-en/"
   },
@@ -90,9 +86,6 @@ var hiringPartners = [
   {
     "image": "img/client/informaticaQatar.png",
     "url": "https://www.i-qatar.com/"
-  },
-  {
-    "image": "img/client/marhub.png"
   },
   {
     "image": "img/client/optimiza.png",
