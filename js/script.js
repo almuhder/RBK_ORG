@@ -111,15 +111,18 @@ $(window).on('load', function () {
                Magnifier
 ============================================ */
 
+function closePopUp(){
+  $.magnificPopup.proto.close.call(this);
+
+}
+
 $(function () {
 
   $("#portfolio-wrapper1").magnificPopup({
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
-    mainClass: 'my-mfp-slide-bottom',
+    closeOnBgClick:false,
     // delegate: 'a', // child items selector, by clicking on it popup will open
     items: [
       
@@ -134,11 +137,13 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
                         border-radius:28px;
                         "
+
                        >
                       CLOSE
                       </button>
@@ -154,9 +159,15 @@ $(function () {
       enabled: true
     },
     callbacks: {
-      beforeOpen: function() {    
+      beforeOpen: function() {   
+         
 
       },
+      open: function() {
+      
+        
+         
+       },
       close: function() {
 
 
@@ -171,8 +182,7 @@ $(function () {
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -185,6 +195,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -210,8 +221,7 @@ $(function () {
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -224,6 +234,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -249,8 +260,7 @@ $(function () {
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -263,6 +273,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -288,8 +299,7 @@ $(function () {
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -302,6 +312,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -327,8 +338,7 @@ $(function () {
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -341,6 +351,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -366,8 +377,7 @@ $(function () {
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -380,6 +390,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -405,8 +416,7 @@ $(function () {
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -419,6 +429,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -444,8 +455,7 @@ $(function () {
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -458,6 +468,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -483,8 +494,7 @@ $(function () {
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -497,6 +507,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -522,8 +533,7 @@ $(function () {
     fixedContentPos: true,
     overflowY: 'scroll',
     closeBtnInside: false,
-    // closeOnBgClick:false,
-    // closeOnContentClick:false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -536,6 +546,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
