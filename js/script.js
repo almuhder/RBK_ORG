@@ -110,15 +110,26 @@ $(window).on('load', function () {
 /* =========================================
                Magnifier
 ============================================ */
+
+function closePopUp(){
+  $.magnificPopup.proto.close.call(this);
+
+}
+
 $(function () {
 
   $("#portfolio-wrapper1").magnificPopup({
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     // delegate: 'a', // child items selector, by clicking on it popup will open
     items: [
+      
       {
         src: $(
           `
-                    <h3 class="fix-heading">
+                    <h3 class="fix-heading adasdsad">
                     How To Ace An Interview In The Modern World
                     </h3>
                     <p class="fix">
@@ -126,14 +137,17 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
                         border-radius:28px;
                         "
+
                        >
                       CLOSE
                       </button>
+                      
                     </div>
                     `
         ),
@@ -143,11 +157,32 @@ $(function () {
     type: 'image',
     gallery: {
       enabled: true
+    },
+    callbacks: {
+      beforeOpen: function() {   
+         
+
+      },
+      open: function() {
+      
+        
+         
+       },
+      close: function() {
+
+
+      }
     }
+
+    
   });
 
   $("#portfolio-wrapper2").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -160,6 +195,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -182,6 +218,10 @@ $(function () {
 
   $("#portfolio-wrapper3").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -194,6 +234,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -216,6 +257,10 @@ $(function () {
 
   $("#portfolio-wrapper4").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -228,6 +273,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -250,6 +296,10 @@ $(function () {
 
   $("#portfolio-wrapper5").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -262,6 +312,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -284,6 +335,10 @@ $(function () {
 
   $("#portfolio-wrapper6").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -296,6 +351,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -318,6 +374,10 @@ $(function () {
 
   $("#portfolio-wrapper7").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -330,6 +390,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -352,6 +413,10 @@ $(function () {
 
   $("#portfolio-wrapper8").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -364,6 +429,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -386,6 +452,10 @@ $(function () {
 
   $("#portfolio-wrapper9").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -398,6 +468,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -420,6 +491,10 @@ $(function () {
 
   $("#portfolio-wrapper10").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -432,6 +507,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -454,6 +530,10 @@ $(function () {
 
   $("#portfolio-wrapper11").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    closeOnBgClick:false,
     items: [
       {
         src: $(
@@ -466,6 +546,7 @@ $(function () {
                     </p>
                     <div style="text-align:center">
                       <button 
+                        onClick="closePopUp()"
                         style="color: #fff;
                         border: 1px solid #b40381;
                         background-color: #b40381;
@@ -851,3 +932,4 @@ $(function () {
         }); 
  
 }
+
