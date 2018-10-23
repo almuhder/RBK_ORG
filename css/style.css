@@ -2360,9 +2360,13 @@ ul.navbar-nav>li>a {
 	letter-spacing: 1px;
 }
 
-ul#navbar-nav>li>a:hover,  {
+ul#navbar-nav>li>a:hover {
 	background: none;
 	color: #b40381;
+}
+ ul#navbar-nav>li>a:focus  {
+	background: none;
+
 }
 
 /* White Navigation */
