@@ -110,15 +110,23 @@ $(window).on('load', function () {
 /* =========================================
                Magnifier
 ============================================ */
+
 $(function () {
 
   $("#portfolio-wrapper1").magnificPopup({
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
+    mainClass: 'my-mfp-slide-bottom',
     // delegate: 'a', // child items selector, by clicking on it popup will open
     items: [
+      
       {
         src: $(
           `
-                    <h3 class="fix-heading">
+                    <h3 class="fix-heading adasdsad">
                     How To Ace An Interview In The Modern World
                     </h3>
                     <p class="fix">
@@ -134,6 +142,7 @@ $(function () {
                        >
                       CLOSE
                       </button>
+                      
                     </div>
                     `
         ),
@@ -143,11 +152,27 @@ $(function () {
     type: 'image',
     gallery: {
       enabled: true
+    },
+    callbacks: {
+      beforeOpen: function() {    
+
+      },
+      close: function() {
+
+
+      }
     }
+
+    
   });
 
   $("#portfolio-wrapper2").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
     items: [
       {
         src: $(
@@ -182,6 +207,11 @@ $(function () {
 
   $("#portfolio-wrapper3").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
     items: [
       {
         src: $(
@@ -216,6 +246,11 @@ $(function () {
 
   $("#portfolio-wrapper4").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
     items: [
       {
         src: $(
@@ -250,6 +285,11 @@ $(function () {
 
   $("#portfolio-wrapper5").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
     items: [
       {
         src: $(
@@ -284,6 +324,11 @@ $(function () {
 
   $("#portfolio-wrapper6").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
     items: [
       {
         src: $(
@@ -318,6 +363,11 @@ $(function () {
 
   $("#portfolio-wrapper7").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
     items: [
       {
         src: $(
@@ -352,6 +402,11 @@ $(function () {
 
   $("#portfolio-wrapper8").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
     items: [
       {
         src: $(
@@ -386,6 +441,11 @@ $(function () {
 
   $("#portfolio-wrapper9").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
     items: [
       {
         src: $(
@@ -420,6 +480,11 @@ $(function () {
 
   $("#portfolio-wrapper10").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
     items: [
       {
         src: $(
@@ -454,6 +519,11 @@ $(function () {
 
   $("#portfolio-wrapper11").magnificPopup({
     // delegate: 'a', // child items selector, by clicking on it popup will open
+    fixedContentPos: true,
+    overflowY: 'scroll',
+    closeBtnInside: false,
+    // closeOnBgClick:false,
+    // closeOnContentClick:false,
     items: [
       {
         src: $(
@@ -851,3 +921,4 @@ $(function () {
         }); 
  
 }
+
