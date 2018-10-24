@@ -86,7 +86,7 @@ ul {
 
 /* Scroll Bar */
 
-/*
+
 ::-webkit-scrollbar {
     width: 1.2em;
 }
@@ -99,7 +99,7 @@ ul {
 ::-webkit-scrollbar-thumb {
     background-color: #b40381;
     outline: 2px solid transparent;
-    border-radius: 70px;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -109,7 +109,7 @@ ul {
 ::-webkit-scrollbar-thumb:active {
     background: #b40381;
 }
-*/
+
 
 /* =========================================
                 Home
@@ -460,16 +460,15 @@ ul {
 #about-right p {
   font-size: 17px !important;
 }
-
+/* 
 #about-bottom {
 	margin-top: 60px;
-}
+} */
 
 #about-bottom img {
-	margin: 0 auto;
-	/* jozaa change it for 550px to 100% */
-	/* width: 550px */
-	width: 100%;
+	margin: 0 auto; 
+	 /* width: 550px */
+	width: 75%;
 }
 
 /* =========================================
@@ -490,11 +489,11 @@ ul {
 
 @media only screen and (max-width: 767px) {
 	.about-item {
-		/* background-color: #fff; */
-		/* padding: 80px 30px; */
-		/* -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
-		/* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
-		/* height: 60vh; */
+		 /* background-color: #fff; 
+		 padding: 80px 30px; 
+		 -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1); 
+		 box-shadow: 0 0 10px rgba(0, 0, 0, .1); 
+		 height: 60vh;  */
 	}
 }
 
