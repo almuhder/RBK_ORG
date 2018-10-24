@@ -582,11 +582,11 @@ $(function () {
     const $element = '<div class="testimonial">'
 
       + '<div class="row" style="margin-bottom:20px">'
-      + '<h1 ><b>' + element.occupation + '</b></h1>'
-      + '<h3 >' + element.company + '</h3>' 
+      + '<h1 style="margin-left:8%"><b>' + element.occupation + '</b></h1>'
+      + '<h3 style="margin-left:8%">' + element.company + '</h3>' 
       + '</div>'
 
-      + '<div class="row">'
+      + '<div class="row" style="margin-left:8%">'
 
       + '<div class=" author" style="display:flex;">'
 

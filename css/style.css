@@ -2481,7 +2481,7 @@ ul#navbar-nav>li>a:hover {
 	/* replace text with image */
 	overflow: hidden;
 	white-space: nowrap;
-	color: #ffffff:;
+	color: #ffffff;
 	pointer-events: auto;
 }
 
