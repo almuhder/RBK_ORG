@@ -2391,7 +2391,7 @@ ul#navbar-nav>li>a:hover {
 	color: #212226;
 }
 
-.white-nav-top ul.navbar-nav>li>a:hover, .white-nav-top ul.navbar-nav>li>a:focus {
+.white-nav-top ul.navbar-nav>li>a:hover, .white-nav-top ul.navbar-nav {
 	color: #b40381;
 }
 
