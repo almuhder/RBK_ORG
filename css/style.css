@@ -92,7 +92,7 @@ ul {
 
 /* Scroll Bar */
 
-/*
+
 ::-webkit-scrollbar {
     width: 1.2em;
 }
@@ -105,7 +105,7 @@ ul {
 ::-webkit-scrollbar-thumb {
     background-color: #b40381;
     outline: 2px solid transparent;
-    border-radius: 70px;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -115,7 +115,7 @@ ul {
 ::-webkit-scrollbar-thumb:active {
     background: #b40381;
 }
-*/
+
 
 /* =========================================
                 Home
@@ -474,16 +474,17 @@ ul {
 #about-right p {
     font-size: 17px !important;
 }
-
+/* 
 #about-bottom {
-    margin-top: 60px;
-}
+
+	margin-top: 60px;
+} */
 
 #about-bottom img {
-    margin: 0 auto;
-    /* jozaa change it for 550px to 100% */
-    /* width: 550px */
-    width: 100%;
+	margin: 0 auto; 
+	 /* width: 550px */
+	width: 75%;
+
 }
 
 /* =========================================
@@ -504,6 +505,7 @@ ul {
 }
 
 @media only screen and (max-width: 767px) {
+
     .about-item {
         /* background-color: #fff; */
         /* padding: 80px 30px; */
@@ -511,7 +513,7 @@ ul {
         /* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
         /* height: 60vh; */
     }
-}
+
 
 .about-item i {
     font-size: 42px;
@@ -1580,6 +1582,15 @@ ul.social-list li:nth-child(3) a:hover {
     transition: transform .5s ease, -webkit-transform .5s ease;
 }
 
+.f  {
+	width: 100%;
+	height: 100% !important;
+	-webkit-transition: -webkit-transform .5s ease;
+	transition: -webkit-transform .5s ease;
+	transition: transform .5s ease;
+	transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
 .portfolio-item:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -2440,9 +2451,10 @@ ul#navbar-nav > li > a:focus {
     color: #212226;
 }
 
-.white-nav-top ul.navbar-nav > li > a:hover,
-.white-nav-top ul.navbar-nav > li > a:focus {
-    color: #b40381;
+
+.white-nav-top ul.navbar-nav>li>a:hover, .white-nav-top ul.navbar-nav {
+	color: #b40381;
+
 }
 
 /* Scroll spy active state */
@@ -2534,28 +2546,27 @@ ul#navbar-nav > li > a:focus {
 }
 
 .vertical-trigger {
-    position: absolute;
-    z-index: 3;
-    top: 0;
-    right: 0;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    /* replace text with image */
-    overflow: hidden;
-    white-space: nowrap;
-    color: #ffffff:;
-    pointer-events: auto;
+
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	right: 0;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	/* replace text with image */
+	overflow: hidden;
+	white-space: nowrap;
+	color: #ffffff;
+	pointer-events: auto;
 }
 
-.vertical-trigger span,
-.vertical-trigger span::after,
-.vertical-trigger span::before {
-    /* this is the hamburger icon */
-    position: absolute;
-    width: 16px;
-    height: 2px;
-    background-color: #ffffff;
+.vertical-trigger span, .vertical-trigger span::after, .vertical-trigger span::before {
+	/* this is the hamburger icon */
+	position: absolute;
+	width: 16px;
+	height: 2px;
+	background-color: #ffffff;
 }
 
 .vertical-trigger span {

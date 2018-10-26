@@ -556,46 +556,38 @@ $(function () {
     for (let index = 0; index < array.length; index++) {
         const element = array[index];
         //change the div contan class bfore h3 col-md-6 col-sm-6 col-xs-6
-        const $element = '<div class="testimonial">'
+       const $element = '<div class="testimonial">'
 
-            +
-            '<div class="row" style="margin-bottom:20px">' +
-            '<h1 ><b>' + element.occupation + '</b></h1>' +
-            '<h3 >' + element.company + '</h3>' +
-            '</div>'
+      + '<div class="row" style="margin-bottom:20px">'
+      + '<h1 style="margin-left:8%"><b>' + element.occupation + '</b></h1>'
+      + '<h3 style="margin-left:8%">' + element.company + '</h3>' 
+      + '</div>'
 
-            +
-            '<div class="row">'
+      + '<div class="row" style="margin-left:8%">'
 
-            +
-            '<div class=" author" style="display:flex;">'
+      + '<div class=" author" style="display:flex;">'
 
-            +
-            '<div class="col-md-2 col-sm-3 col-xs-6" style="padding-left:0px;padding-right:0px;" >' +
-            '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">' +
-            '</div>'
+      + '<div class="col-md-2 col-sm-3 col-xs-6" style="padding-left:0px;padding-right:0px;" >'
+      + '<img src="' + element.image + '" alt="client" class="img-responsive img-circle">'
+      + '</div>'
 
-            +
-            '<div class="col-md-10 col-sm-3 col-xs-6" style="align-self:center;">'
+      + '<div class="col-md-10 col-sm-3 col-xs-6" style="align-self:center;">'
 
-            +
-            '<div class="author-name-des">' +
-            '<p><b>' + element.name + '</b></p>' +
-            '<p>' + element.cohort_number + '</p>' +
-            '<p>' + element.nationality + '</p>' +
-            '</div>'
+      + '<div class="author-name-des">'
+      + '<p><b>' + element.name + '</b></p>'
+      + '<p>' + element.cohort_number + '</p>'
+      + '<p>' + element.nationality  + '</p>'
+      + '</div>'
 
-            +
-            '</div>' +
-            '</div>' +
-            '<p "><b>“</b><i>' + element.quote + ' </i><b>”</b></p>'
+      + '</div>'
+      +'</div>'
+      + '<p "><b>“</b><i>' + element.quote + ' </i><b>”</b></p>'
 
 
 
-
-            +
-            '</div>' +
-            '</div>'
+            
+      +'</div>'
+      +'</div>'
 
         /*
          + '<div class="row">'
