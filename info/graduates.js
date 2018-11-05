@@ -7,7 +7,7 @@ var graduates = [
     "company": "Arabia Weather",
     "quote": "RBK is a life changing experience, it literally changed my life !",
     "cohort_number": "Cohort 1",
-    "image": "img/testimonial/client-3.jpg"
+    "image": "img/testimonial/rana.jpg"
   },
   {
     "name": "Mohammad Albakri",
@@ -17,7 +17,7 @@ var graduates = [
     "company": "BriteCore",
     "quote": "RBK definitely helped me to get my dream job !",
     "cohort_number": "Cohort 1",
-    "image": "img/testimonial/client-1.jpg"
+    "image": "img/testimonial/Albakri.jpg"
   },
   {
     "name": "Rowaida Almehanni",
@@ -27,7 +27,7 @@ var graduates = [
     "company": "Salalem",
     "quote": "RBK opened a new success way in my life !",
     "cohort_number": "Cohort 2",
-    "image": "img/testimonial/client-3.jpg"
+    "image": "img/testimonial/rowaida.jpg"
   },
   {
     "name": "Ahmad Khasawneh",
@@ -37,7 +37,7 @@ var graduates = [
     "company": "Expedia",
     "quote": "RBK opens horizons that let you reach your imaginary dream job",
     "cohort_number": "Cohort 2",
-    "image": "img/testimonial/client-1.jpg"
+    "image": "img/testimonial/ahmad.jpg"
   },
   {
     "name": "Atheer Mahmood",
@@ -47,21 +47,16 @@ var graduates = [
     "company": "Codacity",
     "quote": "RBK is the best decision I’ve ever made in my life !",
     "cohort_number": "Cohort 4",
-    "image": "img/testimonial/client-1.jpg"
+    "image": "img/testimonial/atheer.jpg"
   },
-
-]
-/*
-sure you can add me if you want
   {
-    "name": "Mohammad Jozaa",
-    "nationality": "Martian",
-    "before": "He was in madhouse",
-    "occupation": "Hacker in resident ()",
-    "company": "RBK",
-    "image": "img/testimonial/.jpg",
-    "quote": "RBK is the place that changed my entire life !",
-    "cohort_number": "Cohort 4"
-  },
-
-*/
+    "name": "Hiba Akroush",
+    "nationality": "Jordanian",
+    "before": "He was working as IT support in Iraq",
+    "occupation": "Full Stack Developer",
+    "company": "Expidea",
+    "quote": "RBK is the best decision I’ve ever made in my life !",
+    "cohort_number": "Cohort 3",
+    "image": "img/testimonial/hiba.png"
+  }
+]

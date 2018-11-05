@@ -1,9 +1,5 @@
 var hiringPartners = [
   {
-    "image": "img/client/microsoft.png",
-    "url": "https://www.microsoft.com/en-jo"
-  },
-  {
     "image": "img/client/mbc.png",
     "url": "http://www.mbc.net/en/corporate.html"
   },
@@ -52,10 +48,6 @@ var hiringPartners = [
     "url": "http://jo.jeeran.com/amman/"
   },
   {
-    "image": "img/client/madfooatcom.png",
-    "url": "http://madfooat.com/"
-  },
-  {
     "image": "img/client/sedco.png",
     "url": "https://www.sedco.co/"
   },
@@ -94,10 +86,6 @@ var hiringPartners = [
   {
     "image": "img/client/reserveOut.png",
     "url": "https://www.reserveout.com/amman-en"
-  },
-  {
-    "image": "img/client/vardot.png",
-    "url": "https://www.vardot.com/en-jo"
   },
   {
     "image": "img/client/salalem.png",

@@ -1509,7 +1509,11 @@ ul.social-list li:nth-child(3) a:hover {
 /* =========================================
                 Portfolio
 ============================================ */
-
+.mfp-bg {
+    background: #0b0b0b;
+    opacity: 0.9; 
+}
+  
 #portfolio {
     padding-bottom: 160px;
 }
@@ -3167,3 +3171,5 @@ ul#navbar-nav > li > a:focus {
     transform: scale(1);
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+

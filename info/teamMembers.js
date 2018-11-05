@@ -45,7 +45,7 @@ var staff = [
     "name": "Mohammed", 
     "occupation": "HIR",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
-    "image": "img/team/Jozaa.jpg"
+    "image": "img/team/Jozaa1.jpg"
   },
   {
     "name": "Sahar", 
@@ -75,12 +75,24 @@ var staff = [
     "name": "Zainab", 
     "occupation": "HIR",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
-    "image": "img/team/Zainab.jpg"
+    "image": "img/team/Zainab.png"
   },
   {
     "name": "Zein", 
     "occupation": "CEO",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
     "image": "img/team/Zein.jpg"
-  }
+  },
+  {
+    "name": "Fatima", 
+    "occupation": "Program Manager",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
+    "image": "img/team/fatima.jpg"
+  },
+  {
+    "name": "Hannan", 
+    "occupation": "Outcomes",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
+    "image": "img/team/hannan.png"
+  },
 ]
