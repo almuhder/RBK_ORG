@@ -45,7 +45,7 @@ var staff = [
     "name": "Mohammed", 
     "occupation": "HIR",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
-    "image": "img/team/Jozaa1.jpg"
+    "image": "img/team/Jozaa.jpg"
   },
   {
     "name": "Sahar", 
@@ -75,7 +75,7 @@ var staff = [
     "name": "Zainab", 
     "occupation": "HIR",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
-    "image": "img/team/Zainab.png"
+    "image": "img/team/Zainab.jpg"
   },
   {
     "name": "Zein", 
@@ -93,6 +93,6 @@ var staff = [
     "name": "Hannan", 
     "occupation": "Outcomes",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, repellat, eos! Dignissimos expedita totam cum quidem autem alias dolorum error a quia optio eligendi, amet animi reprehenderit, quaerat.",
-    "image": "img/team/hannan.png"
+    "image": "img/team/hannan.jpg"
   },
 ]
