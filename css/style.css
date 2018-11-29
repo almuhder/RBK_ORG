@@ -2171,10 +2171,29 @@ ul.social-list li:nth-child(3) a:hover {
     color: #fff;
     margin: 0;
 }
-
-.stats-item:hover {
-    background: #b40381;
+.admissions:hover {
+    background: #A30015;
 }
+.tuition:hover {
+    background: #BD2D87;
+}
+.loans:hover {
+    background: #B191FF;
+}
+
+.milestone1:hover {
+    background: #067BC2;
+}
+.milestone2:hover {
+    background: #84BCDA;
+}
+.milestone3:hover {
+    background: #ECC30B;
+}
+.milestone4:hover {
+    background: #F37748;
+}
+
 
 .stats-item:hover i {
     color: #212226;
