@@ -2138,6 +2138,7 @@ ul.social-list li:nth-child(3) a:hover {
     padding: 25px 50px;
     -webkit-transition: all 400ms linear;
     transition: all 400ms linear;
+    margin-bottom: 6%
 }
 
 .stats-item i {
