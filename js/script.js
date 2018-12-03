@@ -542,8 +542,8 @@ $(function () {
                     Labs with Computers
                     </h3>
                     <p class="fix">
-                    The Labs (classrooms) are fully equipped with computers and the bells and whistles needed to conduct the course so don’t bring your laptop ! 
-                    All we need to work on their dream of becoming a Software Engineer.
+                    The Labs (classrooms) are fully equipped with computers and all the bells and whistles needed to conduct the course so don’t bring your laptop !
+                     All we need to work on your dream of becoming a Software Engineer is your full attention !
                     </p>
                     <div style="text-align:center">
                       <button 

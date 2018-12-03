@@ -3053,20 +3053,7 @@ ul#navbar-nav > li > a:focus {
     overflow: hidden;
 }
 
-.sdg-section h3 {
-    color: black;
-    font-family: "Raleway", sans-serif;
-    padding: 10px;
-    font-size: 25px;
-}
 
-.sdg-section h4 {
-    color: black;
-    font-family: "Raleway", sans-serif;
-    padding: 10px;
-    font-size: 20px;
-    padding-bottom: 50px;
-}
 
 .sdg-section .row p {
     padding: 0;
