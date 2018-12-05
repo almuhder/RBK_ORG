@@ -1,9 +1,19 @@
 /* =========================================
                 Preloader
 ============================================ */
+var counter = 0
 $(window).on('load', function () { // makes sure that whole site is loaded
     $('#status').fadeOut();
-    $('#preloader').delay(350).fadeOut('slow');
+    $('#preloader').delay(350).fadeOut('slow');   
+    // $('.fa-angle-right').click(function () {
+    //     console.log("right")      
+    //     $('#testimonial-slider').css("background-color","#033860")
+    //  });
+    // $('.fa-angle-left').click(function () {
+    //     console.log("left")
+ 
+    //  });
+ 
 });
 
 
@@ -580,7 +590,7 @@ $(function () {
     for (let index = 0; index < array.length; index++) {
         const element = array[index];
         //change the div contan class bfore h3 col-md-6 col-sm-6 col-xs-6
-        const $element = '<div class="testimonial">'
+        const $element = '<div class="testimonial " style="background:'+element.color+'">'
 
             +
             '<div class="row" style="margin-bottom:20px">' +
@@ -956,3 +966,6 @@ var swiper = new Swiper('.swiper-container', {
         el: '.swiper-pagination',
     }
 });
+
+
+

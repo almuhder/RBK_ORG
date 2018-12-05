@@ -1912,13 +1912,14 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 #testimonial-slider {
-    background: #b40381;
+    background: #324159;
+    /* #44597a */
+    /* #3e4349 */
     /* margin-top: 90px;
     margin-bottom: 90px; */
 }
 
 .testimonial .row {
-    /* jozaa remove it */
     /* margin-bottom: 25px; */
 }
 
@@ -1957,7 +1958,6 @@ ul.social-list li:nth-child(3) a:hover {
 
 .author .author-name-des {
     /* width: 160px; */
-    /* jozaa remove it */
     /* margin-top: 25px; */
     text-align: left;
 }
@@ -1967,7 +1967,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 #testimonial-slider.owl-theme .owl-nav [class*=owl-] {
-    color: #212226;
+    color: #ffffff;
     font-size: 40px;
     background: none;
     margin: 0;
@@ -2107,17 +2107,17 @@ ul.social-list li:nth-child(3) a:hover {
     background-size: cover;
 }
 
-#stats1 {
+#admissions {
     background: url("../img/stats/stats-bg-1.jpg") no-repeat fixed center;
     background-size: cover;
 }
 
 #stats .content-box-md {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
 }
 
-#stats1 .content-box-md {
-    background: rgba(0, 0, 0, 0.8);
+#admissions .content-box-md {
+    background: rgba(0, 0, 0, 0.7);
 }
 
 #stats .vertical-heading {

@@ -7,7 +7,8 @@ var graduates = [
     "company": "Arabia Weather",
     "quote": "RBK is a life changing experience, it literally changed my life !",
     "cohort_number": "Cohort 1",
-    "image": "img/testimonial/rana.jpg"
+    "image": "img/testimonial/rana.jpg",
+    "color": "#031A6B"
   },
   {
     "name": "Mohammad Albakri",
@@ -17,7 +18,8 @@ var graduates = [
     "company": "BriteCore",
     "quote": "RBK definitely helped me to get my dream job !",
     "cohort_number": "Cohort 1",
-    "image": "img/testimonial/Albakri.jpg"
+    "image": "img/testimonial/Albakri.jpg",
+    "color": "#033860"
   },
   {
     "name": "Rowaida Almehanni",
@@ -27,7 +29,8 @@ var graduates = [
     "company": "Salalem",
     "quote": "RBK opened a new success way in my life !",
     "cohort_number": "Cohort 2",
-    "image": "img/testimonial/rowaida.jpg"
+    "image": "img/testimonial/rowaida.jpg",
+    "color": "#087CA7"
   },
   {
     "name": "Ahmad Khasawneh",
@@ -37,7 +40,8 @@ var graduates = [
     "company": "Expedia",
     "quote": "RBK opens horizons that let you reach your imaginary dream job",
     "cohort_number": "Cohort 2",
-    "image": "img/testimonial/ahmad.jpg"
+    "image": "img/testimonial/ahmad.jpg",
+    "color": "#004385"
   },
   {
     "name": "Atheer Mahmood",
@@ -47,7 +51,8 @@ var graduates = [
     "company": "Codacity",
     "quote": "RBK is the best decision I’ve ever made in my life !",
     "cohort_number": "Cohort 4",
-    "image": "img/testimonial/atheer.jpg"
+    "image": "img/testimonial/atheer.jpg",
+    "color": "#05B2DC"
   },
   {
     "name": "Hiba Akroush",
@@ -57,6 +62,7 @@ var graduates = [
     "company": "Expidea",
     "quote": "RBK is the best decision I’ve ever made in my life !",
     "cohort_number": "Cohort 3",
-    "image": "img/testimonial/hiba.png"
+    "image": "img/testimonial/hiba.png",
+    "color": "#42d4eb"
   }
 ]
