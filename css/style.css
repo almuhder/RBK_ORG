@@ -411,7 +411,7 @@ ul {
 }
 
 .content-box-md {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .content-box-sm {
@@ -1906,15 +1906,15 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 #testimonials .vertical-heading {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     /*     padding: 80px 0;
     margin-bottom: 50px; */
 }
 
 #testimonial-slider {
     background: #b40381;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    /* margin-top: 90px;
+    margin-bottom: 90px; */
 }
 
 .testimonial .row {
@@ -3038,13 +3038,13 @@ ul#navbar-nav > li > a:focus {
     display: block;
     margin: 0 auto;
     width: 600px;
-    padding: 60px 0;
-    padding-bottom: 25px;
+    /* padding: 60px 0;
+    padding-bottom: 25px; */
 }
 
 
 #sdg .container {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 
 .sdg-section .row {
