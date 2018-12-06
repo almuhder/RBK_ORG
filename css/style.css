@@ -3070,6 +3070,9 @@ ul#navbar-nav > li > a:focus {
     height: 275px;
     border-radius: 10px;
 }
+.owl-theme .owl-nav {
+    margin-top: 0px !important;
+}
 
 #img-1 {
     background-image: url("../img/sdg's/icons/01.png")
