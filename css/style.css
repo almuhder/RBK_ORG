@@ -1913,7 +1913,8 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 #testimonial-slider {
-    background: #324159;
+    /* background: #324159; */
+    background: black
     /* #44597a */
     /* #3e4349 */
     /* margin-top: 90px;

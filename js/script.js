@@ -614,15 +614,14 @@ $(function () {
 
             +
             '<div class="author-name-des">' +
-            '<p><b>' + element.name + '</b></p>' +
-            '<p>' + element.cohort_number + '</p>' +
-            '<p>' + element.nationality + '</p>' +
+            '<p><b><h4>' +  element.name  + ' </h4></b></p>' +
+            '<p style="height:100px">' + element.story + '</p>' +
             '</div>'
 
             +
             '</div>' +
             '</div>' +
-            '<p "><b>“</b><i>' + element.quote + ' </i><b>”</b></p>'
+            '<p ></p>'
 
 
 
@@ -692,7 +691,7 @@ $(function () {
 ============================================ */
 $(function () {
     //  $.getJSON("./info/graduates.json", function (data) {  
-    let array = hiringPartners
+    let array = supporters
     for (let index = 0; index < array.length; index++) {
         const element = array[index];
         const $element = '<div class="client"><a target="_blank" href="' + element.url + '"><img src="' + element.image + '" class="img-responsive" alt="client"></a></div>'
@@ -730,7 +729,7 @@ $(function () {
         }
     });
     //    })
-    hiringPartners = undefined
+    supporters = undefined
 });
 
 
