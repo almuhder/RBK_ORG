@@ -1,19 +1,19 @@
 var supporters = [
   {
     "image": "img/supporters/adobe.png",
-    "url": "http://www.mbc.net/en/corporate.html"
+    "url": "https://www.adobe.com/"
   },
   {
     "image": "img/supporters/drc.png",
-    "url": "https://uae.souq.com/ae-en/"
+    "url": "https://drc.ngo/"
   },
   {
     "image": "img/supporters/zain.png",
-    "url": "https://uae.souq.com/ae-en/"
+    "url": "https://www.jo.zain.com/"
   },
   {
     "image": "img/supporters/jabbar.png",
-    "url": "http://en.arabiaweather.com/"
+    "url": "http://www.jabbar.com/"
   },
   {
     "image": "img/client/expedia.png",
@@ -21,10 +21,10 @@ var supporters = [
   },
   {
     "image": "img/supporters/spark.png",
-    "url": "https://www.edraak.org/en/"
+    "url": "http://www.spark-online.org/"
   },
   {
     "image": "img/supporters/bromine.png",
-    "url": "https://www.edraak.org/en/"
+    "url": "http://www.jordanbromine.com/"
   },
 ] 
