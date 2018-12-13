@@ -967,14 +967,14 @@ ul {
     /* height: 100vh; */
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 400px) {
     .about-item {
-        /* background-color: #fff; */
-        /* padding: 80px 30px; */
-        /* -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
-        /* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
-        /* height: 60vh; */
+        margin-bottom: 0px !important
     }
+    .supporter {
+        margin-bottom: 5%
+    }
+
 }
 
 .about-item5 i {
