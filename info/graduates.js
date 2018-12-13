@@ -38,7 +38,7 @@ var graduates = [
   {
     "name": "Hiba Akroush",
     "occupation": "Software Development Engineer",
-    "company": "Expidea in Jordan",
+    "company": "Expedia in Jordan",
     "story": "Hiba is from Fuheis and holds a degree in Industrial Engineering. She couldn’t find a job and worked as a teacher instead. Her dream came true after her graduation from RBK by joining Expedia as a software development engineer. ",
     "image": "img/testimonial/hiba.png",
     "color": "#3e4760"
@@ -83,7 +83,7 @@ var graduates = [
     "name": "Ayman Ghaith",
     "occupation": "Software Engineer",
     "company": "ETQ in Jordan",
-    "story": "He joined RBK several years of programing experience. Ayman says that he gained almost double his experience with his journey in RBK and his salary went up 70% ! Now, he is a full stack software engineer at ETQ.",
+    "story": "Ayman joined RBK with several years of programing experience. Ayman says that he gained almost double his experience with his journey in RBK and his salary went up 70% ! Now, he is a full stack software engineer at ETQ.",
     "image": "img/testimonial/Ayman.jpg",
     "color": "#1F414E"
   },
