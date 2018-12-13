@@ -610,12 +610,12 @@ $(function () {
             '</div>'
 
             +
-            '<div class="col-md-10 col-sm-3 col-xs-6" style="align-self:center;">'
+            '<div class="col-md-10 col-sm-3 col-xs-10" style="align-self:center;">'
 
             +
             '<div class="author-name-des">' +
             '<p><b><h4>' +  element.name  + ' </h4></b></p>' +
-            '<p style="height:100px">' + element.story + '</p>' +
+            '<p >' + element.story + '</p>' +
             '</div>'
 
             +

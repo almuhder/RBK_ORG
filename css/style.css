@@ -1209,6 +1209,12 @@ ul.social-list li:nth-child(3) a:hover {
     color: #b40381;
 }
 
+.owl-item {
+
+    /* height: 371px !important; */
+
+}
+
 /* =========================================
                 Skills
 ============================================ */
@@ -1926,7 +1932,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .testimonial {
-    padding: 20px 45px 0 45px;
+    /* padding: 20px 45px 0 45px; */
     color: #fff;
 }
 
@@ -1949,20 +1955,18 @@ ul.social-list li:nth-child(3) a:hover {
     margin: 20px 0 10px 0;
 }
 
-/* style="box-shadow: 0 0 10px rgba(0, 0, 0, .1);" */
-
 .testimonial p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: normal;
-    margin: 0;
+    /* margin: 0;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
 }
 
 .author .author-name-des {
     /* width: 160px; */
     /* margin-top: 25px; */
-    text-align: left;
+
 }
 
 .author .author-name-des p {
@@ -1979,6 +1983,17 @@ ul.social-list li:nth-child(3) a:hover {
 #testimonial-slider.owl-theme .owl-nav [class*=owl-]:hover {
     background: none;
     color: #ffffff;
+}
+
+@media only screen and (max-width:  485px) {
+    .testimonial {
+         background: rgb(192, 86, 0) !important; 
+
+
+    }
+    #testimonial-slider {
+        background: rgb(192, 86, 0) !important;
+    }
 }
 
 /* =========================================

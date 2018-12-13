@@ -12,7 +12,7 @@ var graduates = [
     "name": "Mohammad Albakri",
     "occupation": "Software Engineering Team Leader",
     "company": "BriteCore  in Jordan",
-    "story": "Mohammad is from Amman and holds a degree in Aircraft Engineering. He couldn’t find employment and ended up working long hours as a cashier in a street food shop earning around 250 JD. Then he met RBK and put all his efforts into becoming a great coder. Today, he is a software engineering team leader at BrightCore making more than 10 times his salary. ",
+    "story": "Mohammad is from Amman and holds a degree in Aircraft Engineering. He couldn’t find employment and ended up working  as a cashier in a street food shop . Then he met RBK and put all his efforts into becoming a great coder. Today, he is a software engineering team leader at BrightCore . ",
     "image": "img/testimonial/Albakri.jpg",
     "color": "#556a87"
     // 033860

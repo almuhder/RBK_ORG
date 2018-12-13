@@ -23,4 +23,8 @@ var supporters = [
     "image": "img/supporters/spark.png",
     "url": "https://www.edraak.org/en/"
   },
+  {
+    "image": "img/supporters/bromine.png",
+    "url": "https://www.edraak.org/en/"
+  },
 ] 
