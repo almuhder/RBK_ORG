@@ -3,7 +3,7 @@ var graduates = [
     "name": "Rana Kilani",
     "occupation": "Full Stack Developer",
     "company": "Arabia Weather in Jordan",
-    "story": "Rana’s is a Syrian with an educational background in English Literature. Before RBK she was a tender manager Syria. Now, Rana is a full stack software developer at Arabia Weather",
+    "story": "Rana is a Syrian with an educational background in English Literature. Before RBK she was a tender manager Syria. Now, Rana is a full stack software developer at Arabia Weather",
     "image": "img/testimonial/rana.jpg",
     "color": "#8090a7"
     // "color": "#031A6B"
@@ -29,8 +29,8 @@ var graduates = [
   {
     "name": "Aya Hassan ",
     "occupation": "Software Engineer",
-    "company": "Adaptcore in Canada",
-    "story": "Aya is an Iraqi young lady with a degree in information Technology who came from Iraq to join the program. Before RBK she was not employed. After her 4 months training with RBK, she now works with Adaptcore in Canada as a software engineer.",
+    "company": "Codacity in Jordan",
+    "story": "Aya is an Iraqi young lady with a degree in information Technology who came from Iraq to join the program. Before RBK she was not employed. After her 4 months training with RBK, she worked with Adaptcore in Canada as a software engineer.",
     "image": "img/testimonial/aya.jpg",
     "color": "#465b6f"
     // 05B2DC
