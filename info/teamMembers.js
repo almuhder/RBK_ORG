@@ -8,13 +8,13 @@ var staff = [
   {
     "name": "Balqees", 
     "occupation": "Admissions Coordinator",
-    "description": "The quiet one. Balqees brings the laughs to the Admissions environment. Always helpful, she guides applicants through their Admissions journey and arms them with the tools they need to successfully be admitted to RBK’s Immersive Program.",
+    "description": "The quiet one. Balqees brings the laughs to the Admissions environment. Always helpful, she guides applicants through their Admissions journey to successfully be admitted to RBK’s Immersive Program",
     "image": "img/team/Balqees.jpg"
   },
   {
     "name": "Bayan", 
     "occupation": "Admissions Manager",
-    "description": "Knowledgeable but funny and charismatic, Bayan will never give in to a bad day. A day is what you make of it, and even though it looks like it’s raining, she has a talent of making the sun shine around her all the time.",
+    "description": "Knowledgeable, funny and charismatic, Bayan will never give in to a bad day. “It’s what you make of it even if it’s raining”.  She has a talent of making the sun shine around her all the time",
     "image": "img/team/Bayan.jpg"
   },
   {
@@ -50,26 +50,26 @@ var staff = [
   {
     "name": "Tal", 
     "occupation": "Curriculum Facilitator",
-    "description": "Just like a book, don't judge her by her cover. She’s funny from the inside and an RBK graduate that helps the students find their way during the program. She’s super open to people and always makes sure they have a smile on their face.",
+    "description": "Just like a book, don't judge her by her cover. She’s funny from the inside and helps the students find their way during the program. She’s super open to people and always makes sure they have a smile",
     "image": "img/team/Tal.jpg"
   },
   {
     "name": "Zainab", 
     "occupation": "Admission Coordinator",
-    "description": "A bundle of joy, warmth and professionalism. Known for going the extra mile to help others and offer support. If you’re feeling down and out, take two Zainabs with a full glass of water and call us in the morning.",
+    "description": "A bundle of joy, warmth and professionalism. Known for going the extra mile to help others and offer support. If you’re feeling down, take two Zainabs with a full glass of water and call us in the morning",
     "image": "img/team/Zainab.jpg"
   },
 
   {
     "name": "Fatima", 
     "occupation": "Program Manager",
-    "description": "Fatema is a graduate from cohort 1 and wants to change peoples’ lives. After three years of unemployment, she never thought that one day she will be running one of RBK's cohorts. Fatema encourages all females to learn coding and always says “never ever stop learning”   ",
+    "description": "The Maestro behind the orchestra ! She encourages women to never ever stop learning. After three years of unemployment, she now oversees RBK's entire Program",
     "image": "img/team/fatima.jpg"
   },
   {
-    "name": "Hannan", 
+    "name": "Hanan", 
     "occupation": "Outcomes Technician",
-    "description": "Always top of her class, she started with JavaScript and ended up with Blockchain ! Now she helps our students to fine tune their skills to get their dream job. More importantly, the best Arabic coffee maker in Jordan !",
+    "description": "She started with JavaScript and ended up with Blockchain ! Now she helps our students to fine tune their skills to get their dream job. More importantly, the best Arabic coffee maker in Jordan !",
     "image": "img/team/hannan.jpg"
   },
   {
@@ -81,19 +81,19 @@ var staff = [
   {
     "name": "Sarah", 
     "occupation": "Outcomes Coordinator",
-    "description": "She is in love with her career. “I love how I can see my job changing people's lives”. A creative thinker, she is the main link between our graduates and the professional tech world. She never gives up, and will never let you give up !",
+    "description": "She is in love with her career. “I love how I can see my job changing people's lives”. A creative thinker, she is the main link between our graduates and the professional tech world. She will never let you give up !",
     "image": "img/team/Sarah.jpg"
   },
   {
     "name": "ocean", 
-    "occupation": "Curriculum Facilitator",
-    "description": "With a Computer Vision and Engineering background, he has experience ranging from low-level Assembly Language to web-app. For him, software is about finding the balance between creativity and utility. At RBK, he is striving to deliver complex C.S. concepts creatively to our students.",
+    "occupation": "Visiting Tech Mentor",
+    "description": " Experience ranging from low-level Assembly Language to web-app. “Software is about finding the balance between creativity and utility”. At RBK, strives to deliver complex C.S. concepts creatively to our students",
     "image": "img/team/ocean.jpg"
   },
   {
     "name": "Elyse", 
-    "occupation": "Curriculum Facilitator",
-    "description": "Former professional musician, educator and a graduate of Hack Reactor. An ability to bring creative solutions to teaching complex technical concepts to the students at RBK. In her free time, Elyse enjoys reading, running, lifting weights, hiking, and playing her saxophone. ",
+    "occupation": "Visiting Tech Mentor",
+    "description": "A graduate of Hack Reactor, she brings creative solutions to teaching complex technical concepts to our students. Elyse enjoys reading, running, lifting weights, hiking, and playing her saxophone ",
     "image": "img/team/Elyse.jpg"
   }
 ]
