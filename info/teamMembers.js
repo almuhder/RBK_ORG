@@ -55,7 +55,7 @@ var staff = [
   },
   {
     "name": "Zainab", 
-    "occupation": "Admission Coordinator",
+    "occupation": "Admissions Coordinator",
     "description": "A bundle of joy, warmth and professionalism. Known for going the extra mile to help others and offer support. If you’re feeling down, take two Zainabs with a full glass of water and call us in the morning",
     "image": "img/team/Zainab.jpg"
   },
